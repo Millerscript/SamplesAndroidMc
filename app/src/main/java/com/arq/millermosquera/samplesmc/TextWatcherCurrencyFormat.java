@@ -3,7 +3,7 @@ package com.arq.millermosquera.samplesmc;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.widget.EditText;
-
+// tiDerecho.addTextChangedListener(new TextWatcherCurrencyFormat(tiDerecho, tilDerecho));
 public class TextWatcherCurrencyFormat implements TextWatcher {
 
     private EditText editText;
