@@ -37,6 +37,8 @@ public class DetailFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
         mImageDetail = view.findViewById(R.id.detail_image);
         mImageDetail.setImageResource(R.drawable.mazda);
+
+
        /* if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             TransitionManager.beginDelayedTransition(container, new TransitionSet()
                     .addTransition(new ChangeBounds())
